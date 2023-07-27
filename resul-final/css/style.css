@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url(RobotoCondensed-Regular.ttf);
+}
+
+.bg-image {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-block: 100px;
+}
+
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
+.bg-purple {
+  background-color: #9f54db;
+}
+
+.text-purple {
+  color: #9f54db;
+}
