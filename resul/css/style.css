@@ -1,9 +1,0 @@
-.bg-image {
-  background-image: url("../img/01.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding-block: 20rem;
-}
