@@ -9,6 +9,7 @@
   <title>Home Page</title>
 
   <!-- css -->
+  <link rel="stylesheet" href="css/aos/aos.css">
   <link rel="stylesheet" href="css/bootstrap/bootstrap-icons/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
@@ -44,7 +45,7 @@
 
   <!-- header -->
   <div class="bg-image">
-    <div class="container">
+    <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="d-none d-lg-block fs-4 col-md-3 mt-5">
           <div class="mt-5 mb-2">
@@ -76,7 +77,7 @@
   </div>
 
   <!-- services -->
-  <div class="bg-grey py-5">
+  <div data-aos="fade-up" data-aos-delay="200" class="bg-grey py-5">
     <div class="container">
       <div class="h1 text-danger fw-bold pb-3 text-center" style="font-family: 'Roboto Condensed', sans-serif;">
         We'll help manage your business
@@ -125,7 +126,7 @@
   </div>
 
   <!-- testimonials -->
-  <div class="container py-5">
+  <div class="container py-5" data-aos="fade-up">
     <div class="text-center mb-3 h4 fw-normal">
       TESTIMONIALS
     </div>
@@ -192,6 +193,10 @@
   </div>
 
   <!-- js -->
+  <script src="js/aos/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/bootstrap/bootstrap.bundle.js"></script>
 </body>
 
